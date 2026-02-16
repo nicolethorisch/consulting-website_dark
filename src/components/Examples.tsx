@@ -4,9 +4,9 @@ import { useRef, useState, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 
 const steps = [
-  "Anfrage analysieren...",
-  "Antwort generieren...",
-  "Termin bestätigt!",
+  "E-Mail erfassen & Stimmung erkennen...",
+  "Sachlich antworten, Lösung vorschlagen...",
+  "Kritisch? An Sie weiterleiten.",
 ];
 
 const weeks = ["Start", "Woche 1", "Woche 2", "Woche 3", "Woche 4"];
@@ -33,10 +33,10 @@ export default function Examples() {
           className="text-center"
         >
           <h2 className="font-display text-3xl font-bold sm:text-4xl">
-            Konkrete Automatisierungen
+            Konkrete Automatisierungen für Immobilien
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-slate-400">
-            Was virtuelle Mitarbeiter in Ihrem Unternehmen leisten können
+            Weniger Stress, schnellere Reaktion – value-driven für Hausverwaltungen und WEG
           </p>
         </motion.div>
 
@@ -47,7 +47,7 @@ export default function Examples() {
             transition={{ delay: 0.2, duration: 0.6 }}
           >
             <p className="text-sm font-medium uppercase tracking-wider text-cyan-400">
-              Email-Assistent für den Vertrieb
+              De-Eskalations-Agent für wütende Mails
             </p>
             <div className="mt-4">
               <motion.span
@@ -56,17 +56,17 @@ export default function Examples() {
                 animate={{ opacity: 1 }}
                 className="text-4xl font-bold gradient-text sm:text-5xl"
               >
-                70%
+                Weniger
               </motion.span>
               <span className="ml-2 text-2xl text-slate-300">
-                weniger Email-Aufwand
+                Eskalation & Stress
               </span>
             </div>
             <ul className="mt-6 space-y-3">
               {[
-                "Wichtige Emails priorisiert und weitergeleitet",
-                "Terminvorschläge werden automatisch erstellt",
-                "Standardanfragen automatisch beantwortet",
+                "Wütende Mails werden sachlich und lösungsorientiert beantwortet",
+                "Kritische Fälle priorisiert und an Sie weitergeleitet",
+                "Schnellere Reaktionszeiten – Ihr Tag bleibt entspannter",
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3 text-slate-400">
                   <span className="h-2 w-2 rounded-full bg-cyan-400" />
@@ -144,12 +144,13 @@ export default function Examples() {
           className="mt-12 flex flex-wrap justify-center gap-2"
         >
           {[
-            "Email-Automatisierung",
-            "Angebotserstellung",
-            "KI-Telefonassistenten",
+            "De-Eskalation Mails",
+            "Telefon-Agent / Weiterleitung",
+            "Schadensmeldungen",
+            "Fristen & Verträge",
             "Rechnungsprüfung",
-            "Vertragsverwaltung",
-            "Vertriebsanalyse",
+            "Mieteranfragen",
+            "Handwerker-Koordination",
           ].map((tab) => (
             <span
               key={tab}

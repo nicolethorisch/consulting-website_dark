@@ -17,7 +17,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "KI & Analytics Consulting | Nicole Thorisch",
   description:
-    "KI-Vorsprung für den Mittelstand. Prozesse automatisieren, Mitarbeiter entlasten. Email-Assistenten, Angebotserstellung, KI-Telefonassistenten.",
+    "KI-Automatisierung für Immobilienverwaltungen, Banken, Versicherungen und Industrie. Prozesse automatisieren, Mitarbeiter entlasten.",
 };
 
 export default function RootLayout({

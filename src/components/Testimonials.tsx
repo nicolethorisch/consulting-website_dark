@@ -6,13 +6,13 @@ import { motion, useInView } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Die Prozess-Analyse hat uns gezeigt, wo wir die meiste Zeit verlieren. Die KI-Lösung spart uns jetzt mehrere Stunden pro Woche.",
-    name: "Mittelständler, Fertigungsindustrie",
+      "Der De-Eskalations-Agent nimmt uns die wütenden Mails ab — unser Team ist deutlich entspannter und reagiert schneller.",
+    name: "Hausverwaltung, München",
   },
   {
     quote:
-      "Der Email-Assistent priorisiert wichtige Anfragen und erstellt Antwortvorschläge — unser Vertriebsteam ist deutlich entlastet.",
-    name: "Vertriebsleiter, B2B-Dienstleistung",
+      "Fristen und Rechnungsprüfung laufen automatisch. Keine verpassten Kündigungen mehr, weniger Fehler.",
+    name: "Immobilien-Asset-Manager, WEG",
   },
   {
     quote:

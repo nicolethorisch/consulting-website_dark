@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import ParticleBackground from "./ParticleBackground";
 
-const line1 = "Intelligente Automatisierung";
-const line2 = "für moderne Unternehmen.";
+const line1 = "KI-Automatisierung";
+const line2 = "für Ihre Branche.";
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false);
@@ -46,10 +46,10 @@ export default function Hero() {
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-violet-500/50 bg-violet-950/50 px-4 py-1.5"
         >
           <span className="rounded bg-violet-600 px-2 py-0.5 text-xs font-semibold text-white">
-            Neu
+            Fokus
           </span>
           <span className="text-sm text-zinc-300">
-            Automatisierte Lead-Generierung
+            KI für Immobilien, Finanz, Versicherung & Industrie
           </span>
         </motion.div>
 
@@ -73,9 +73,9 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400"
         >
-            Wir bringen KI-Automatisierung an Ihre Fingerspitzen und
-            verschlanken Aufgaben – von automatisierter Angebotserstellung bis
-            zu intelligenten Chatbots.
+            Von De-Eskalation bei Mieteranfragen bis zur automatischen
+            Dokumentenprüfung – maßgeschneiderte KI für Immobilien, Finanz,
+            Versicherung und Industrie.
         </motion.p>
 
 

@@ -231,16 +231,16 @@ const steps = [
           className="space-y-3"
         >
           {[
-            { name: "Chatbot-System", status: "Effizienz +20%", icon: "↻" },
-            { name: "Workflow-System", status: "Update verfügbar", icon: "↑" },
-            { name: "Vertriebs-System", status: "Aktuell", icon: "✓" },
-            { name: "Support-System", status: "Stabil", icon: "✓" },
-            { name: "Reporting-System", status: "Optimiert", icon: "↻" },
-            { name: "Chatbot-System", status: "Effizienz +20%", icon: "↻" },
-            { name: "Workflow-System", status: "Update verfügbar", icon: "↑" },
-            { name: "Vertriebs-System", status: "Aktuell", icon: "✓" },
-            { name: "Support-System", status: "Stabil", icon: "✓" },
-            { name: "Reporting-System", status: "Optimiert", icon: "↻" },
+            { name: "De-Eskalations-Agent", status: "Aktuell", icon: "✓" },
+            { name: "Telefon-Weiterleitung", status: "Stabil", icon: "✓" },
+            { name: "Fristen-Modul", status: "Optimiert", icon: "↻" },
+            { name: "Rechnungsprüfung", status: "Effizienz +20%", icon: "↻" },
+            { name: "KYC-Prüfung", status: "Update verfügbar", icon: "↑" },
+            { name: "De-Eskalations-Agent", status: "Aktuell", icon: "✓" },
+            { name: "Telefon-Weiterleitung", status: "Stabil", icon: "✓" },
+            { name: "Fristen-Modul", status: "Optimiert", icon: "↻" },
+            { name: "Rechnungsprüfung", status: "Effizienz +20%", icon: "↻" },
+            { name: "KYC-Prüfung", status: "Update verfügbar", icon: "↑" },
           ].map((item, index) => (
             <div
               key={`${item.name}-${index}`}

@@ -16,17 +16,8 @@ export default function TrustBar() {
     >
       <div className="mx-auto max-w-6xl px-6 text-center">
         <p className="text-sm text-zinc-400">
-          Unternehmen vertrauen auf pragmatische KI-Lösungen
+          Hausverwaltungen, Banken und Industrieunternehmen vertrauen auf pragmatische KI-Lösungen
         </p>
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-8 opacity-60">
-          {[1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              className="h-8 w-24 rounded bg-zinc-800"
-              style={{ minWidth: 80 }}
-            />
-          ))}
-        </div>
       </div>
     </motion.section>
   );

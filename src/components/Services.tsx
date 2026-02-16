@@ -5,11 +5,12 @@ import { motion, useInView } from "framer-motion";
 import Link from "next/link";
 
 const tasks = [
-  { label: "Lead-Liste", status: "70% vorbereitet", icon: "gear" },
-  { label: "Zahlungserinnerung", status: "an Kunden gesendet", icon: "check" },
-  { label: "Gehaltsabrechnung", status: "Fällig 2. Juli", icon: "clock" },
-  { label: "Mitarbeiter-Tracking", status: "vor 2 Tagen", icon: "check" },
-  { label: "Social Media Post", status: "Abgebrochen", icon: "x" },
+  { label: "De-Eskalations-Mail", status: "antwortet ruhig, priorisiert", icon: "check" },
+  { label: "Anruf", status: "an zuständige Person weitergeleitet", icon: "check" },
+  { label: "Schadensmeldung", status: "Handwerker zugewiesen", icon: "check" },
+  { label: "Kündigungsfrist", status: "Fällig 15. März", icon: "clock" },
+  { label: "Rechnungsprüfung", status: "gegen Bestellung geprüft", icon: "check" },
+  { label: "Mieteranfrage", status: "in Bearbeitung", icon: "gear" },
 ];
 
 export default function Services() {
@@ -34,7 +35,7 @@ export default function Services() {
             transition={{ delay: 0.1 }}
             className="mt-4 font-display text-3xl font-bold sm:text-4xl lg:text-5xl"
           >
-            KI-Lösungen, die Ihr Unternehmen auf das nächste Level bringen
+            KI-Lösungen für Immobilien, Finanz und Industrie
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -99,18 +100,28 @@ export default function Services() {
           >
             <span className="section-tag">Prozess-Automatisierung</span>
             <h3 className="mt-4 font-display text-2xl font-bold sm:text-3xl">
-              Repetitive Aufgaben automatisieren
+              Für Immobilienverwaltungen
             </h3>
             <p className="mt-4 text-zinc-400">
-              Wir optimieren interne Abläufe: Datenpflege, Reporting und
-              Freigabe-Workflows – weniger Fehler, mehr Zeit fürs Wesentliche.
+              Weniger Stress, weniger Fehler: De-Eskalation bei Mails, Telefon-Agenten
+              leiten Anrufe an die für die Immobilie zuständige Person weiter,
+              Schadensmeldungen triagieren, Fristen überwachen, Rechnungen prüfen.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
-                Email-Assistenten
+                De-Eskalations-Agent
               </span>
               <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
-                Dokumentenerstellung
+                Telefon-Agent / Weiterleitung
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
+                Schadensmeldungen
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
+                Fristen & Verträge
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
+                Rechnungsprüfung
               </span>
             </div>
           </motion.div>
@@ -125,21 +136,25 @@ export default function Services() {
           >
             <span className="section-tag">KI-Assistent</span>
             <h3 className="mt-4 font-display text-2xl font-bold sm:text-3xl">
-              Tägliche Aufgaben delegieren
+              Immobilien-Alltag entlasten
             </h3>
             <p className="mt-4 text-zinc-400">
-              Von Kalendern über E-Mails bis zur Meeting-Zusammenfassung –
-              unsere KI-Assistenten arbeiten rund um die Uhr.
+              Mieter- und Eigentümeranfragen sachlich beantworten, Anrufe an die
+              zuständige Person für die Immobilie weiterleiten, kritische Fälle
+              priorisieren – Ihr Team behält den Überblick ohne Dauerstress.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
-                Zusammenfassungen
+                Sachliche Antworten
               </span>
               <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
-                Terminplanung
+                Telefon-Weiterleitung
               </span>
               <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
-                Und mehr
+                Priorisierung & Eskalation
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2 text-sm text-white">
+                Schnellere Reaktionszeiten
               </span>
             </div>
           </motion.div>
